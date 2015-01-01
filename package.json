@@ -1,0 +1,27 @@
+{
+  "name": "fitnesswidget",
+  "version": "1.0.0",
+  "description": "Embeddable widget in your blog or website which shows your recent Runkeeper activities",
+  "main": "fw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fitness",
+    "widget",
+    "runkeeper",
+    "blog"
+  ],
+  "author": "Ajay R",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.3.3",
+    "express": "^4.10.6",
+    "express-handlebars": "^1.1.0",
+    "express-session": "^1.9.3",
+    "passport": "^0.2.1",
+    "passport-runkeeper": "^0.1.2"
+  }
+}
