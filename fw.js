@@ -3,6 +3,11 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
+var Config = require('./credentials.js');
+
+//mongoose
+var mongoose = require('mongoose');
+mongoose.connect(Config.dburl);
 
 //setup handlebars and view engine
 var handlebars = require('express-handlebars')
